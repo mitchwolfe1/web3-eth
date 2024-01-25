@@ -1,4 +1,6 @@
 # Web3 RPC client for Ethereum node
+*Ruby 3 compatible fork of the web3-eth gem*
+
 
 This Ruby Gem is used to connect and communicate with Ethereum node ( geth, parity, etc),
 having RPC interface. Also it has support to call Etherscan API.
