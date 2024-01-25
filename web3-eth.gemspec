@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Web3 client to connect to Ethereum node by RPC.}
   spec.description   = %q{Calling RPC methods of Ethereum node with Ruby.}
-  spec.homepage      = "https://github.com/izetex/web3-eth"
+  spec.homepage      = "https://github.com/mitchwolfe1/web3-eth"
   spec.license       = "MIT"
 
 
@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency('rlp', '~> 0.7.3')
-  spec.add_dependency('digest-sha3', '~> 1.1.0')
+  spec.add_dependency('digest-sha3', '>= 1.1.0')
   spec.add_development_dependency "bundler", "~> 1.14"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
